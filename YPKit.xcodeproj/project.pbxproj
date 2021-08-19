@@ -15,6 +15,8 @@
 		EDBB79B726CE4220008B8660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDBB79B526CE4220008B8660 /* LaunchScreen.storyboard */; };
 		EDBB79BA26CE4220008B8660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBB79B926CE4220008B8660 /* main.m */; };
 		EDBB79C426CE4292008B8660 /* YPEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBB79C326CE4292008B8660 /* YPEmoji.m */; };
+		EDBB79C826CE4367008B8660 /* CheckNetworkSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBB79C626CE4367008B8660 /* CheckNetworkSpeed.m */; };
+		EDBB79CA26CE438B008B8660 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EDBB79C926CE438B008B8660 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		EDBB79B926CE4220008B8660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDBB79C226CE4292008B8660 /* YPEmoji.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPEmoji.h; sourceTree = "<group>"; };
 		EDBB79C326CE4292008B8660 /* YPEmoji.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPEmoji.m; sourceTree = "<group>"; };
+		EDBB79C626CE4367008B8660 /* CheckNetworkSpeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckNetworkSpeed.m; sourceTree = "<group>"; };
+		EDBB79C726CE4367008B8660 /* CheckNetworkSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckNetworkSpeed.h; sourceTree = "<group>"; };
+		EDBB79C926CE438B008B8660 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +75,7 @@
 				EDBB79AB26CE421E008B8660 /* SceneDelegate.m */,
 				EDBB79AD26CE421E008B8660 /* ViewController.h */,
 				EDBB79AE26CE421E008B8660 /* ViewController.m */,
+				EDBB79C926CE438B008B8660 /* README.md */,
 				EDBB79C026CE427A008B8660 /* kit */,
 				EDBB79B026CE421E008B8660 /* Main.storyboard */,
 				EDBB79B326CE4220008B8660 /* Assets.xcassets */,
@@ -83,6 +89,7 @@
 		EDBB79C026CE427A008B8660 /* kit */ = {
 			isa = PBXGroup;
 			children = (
+				EDBB79C526CE4367008B8660 /* networkSpeed */,
 				EDBB79C126CE427A008B8660 /* emoji */,
 			);
 			path = kit;
@@ -95,6 +102,15 @@
 				EDBB79C326CE4292008B8660 /* YPEmoji.m */,
 			);
 			path = emoji;
+			sourceTree = "<group>";
+		};
+		EDBB79C526CE4367008B8660 /* networkSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				EDBB79C626CE4367008B8660 /* CheckNetworkSpeed.m */,
+				EDBB79C726CE4367008B8660 /* CheckNetworkSpeed.h */,
+			);
+			path = networkSpeed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +172,7 @@
 			files = (
 				EDBB79B726CE4220008B8660 /* LaunchScreen.storyboard in Resources */,
 				EDBB79B426CE4220008B8660 /* Assets.xcassets in Resources */,
+				EDBB79CA26CE438B008B8660 /* README.md in Resources */,
 				EDBB79B226CE421E008B8660 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,6 +187,7 @@
 				EDBB79AF26CE421E008B8660 /* ViewController.m in Sources */,
 				EDBB79C426CE4292008B8660 /* YPEmoji.m in Sources */,
 				EDBB79A926CE421E008B8660 /* AppDelegate.m in Sources */,
+				EDBB79C826CE4367008B8660 /* CheckNetworkSpeed.m in Sources */,
 				EDBB79BA26CE4220008B8660 /* main.m in Sources */,
 				EDBB79AC26CE421E008B8660 /* SceneDelegate.m in Sources */,
 			);
