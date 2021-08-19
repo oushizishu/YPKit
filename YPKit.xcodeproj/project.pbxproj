@@ -35,6 +35,7 @@
 		EDBB79F126CE4A43008B8660 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDBB79E326CE4A43008B8660 /* img1.jpg */; };
 		EDBB79F226CE4A43008B8660 /* img11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDBB79E426CE4A43008B8660 /* img11.jpg */; };
 		EDBB79F326CE4A43008B8660 /* img10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDBB79E526CE4A43008B8660 /* img10.jpg */; };
+		EDBB79F726CE4E53008B8660 /* IAPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBB79F526CE4E53008B8660 /* IAPTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,8 @@
 		EDBB79E326CE4A43008B8660 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
 		EDBB79E426CE4A43008B8660 /* img11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img11.jpg; sourceTree = "<group>"; };
 		EDBB79E526CE4A43008B8660 /* img10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img10.jpg; sourceTree = "<group>"; };
+		EDBB79F526CE4E53008B8660 /* IAPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPTool.m; sourceTree = "<group>"; };
+		EDBB79F626CE4E53008B8660 /* IAPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,7 @@
 		EDBB79C026CE427A008B8660 /* kit */ = {
 			isa = PBXGroup;
 			children = (
+				EDBB79F426CE4E53008B8660 /* IAPTool */,
 				EDBB79CB26CE46D1008B8660 /* assetOperator */,
 				EDBB79C526CE4367008B8660 /* networkSpeed */,
 				EDBB79C126CE427A008B8660 /* emoji */,
@@ -187,6 +191,15 @@
 				EDBB79E526CE4A43008B8660 /* img10.jpg */,
 			);
 			path = Resoure;
+			sourceTree = "<group>";
+		};
+		EDBB79F426CE4E53008B8660 /* IAPTool */ = {
+			isa = PBXGroup;
+			children = (
+				EDBB79F526CE4E53008B8660 /* IAPTool.m */,
+				EDBB79F626CE4E53008B8660 /* IAPTool.h */,
+			);
+			path = IAPTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +296,7 @@
 				EDBB79BA26CE4220008B8660 /* main.m in Sources */,
 				EDBB79D526CE46F5008B8660 /* AssetDemoViewController.m in Sources */,
 				EDBB79AC26CE421E008B8660 /* SceneDelegate.m in Sources */,
+				EDBB79F726CE4E53008B8660 /* IAPTool.m in Sources */,
 				EDBB79D126CE46D1008B8660 /* ZSAssetModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
