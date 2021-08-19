@@ -19,3 +19,12 @@
 
 ## 4. IAP tool
 ios 内购工具类
+
+## 5. 纹理 -> 图片 -> 视频
+#### 流程:
+1. MakeTextureInstance里面读取图片, 生成texture, 加载到opengl的contenxt里面,
+2. ZSTextureToPicture依据textureId取到texture, 消费该纹理, 渲染成图片后, 请求下一帧
+3. 纹理生成完毕, 回调 ZSTextureToPicture, 开始合成视频
+
+#### tips:
+- 使用GLKit渲染纹理为图片, 需要实例化GLKView
